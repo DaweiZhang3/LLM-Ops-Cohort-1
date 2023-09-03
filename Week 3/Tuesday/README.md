@@ -13,3 +13,16 @@ A public IP address pointing to your application.
 
 # Share 🚀
 Make a social media post about your final application and tag @AIMakerspace
+
+# Steps
+1. Launch an ec2 instance with the configuration below
+- g4dn.xlarge 4cpu 16G RAM
+- ubuntu
+- 50GB storage room
+
+2. Install docker and Nvidia-driver
+3. Clone this repo and navigate to `Week\ 3/Tuesday/fastapi`, run `cp .env.sample .env` and fill in your HUGGINGFACE_TOKEN
+4. Run `docker compose up` in the `Week\ 3/Tuesday/fastapi` folder.
+5. In your browser, enter the public ip of your ec2 instance
+
+![Alt text](image.png)

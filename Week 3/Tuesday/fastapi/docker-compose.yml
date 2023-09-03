@@ -37,5 +37,5 @@ services:
   chainlit:
     build: ../chainlit/
     ports:
-      - 7860:7860
+      - 80:7860
     
